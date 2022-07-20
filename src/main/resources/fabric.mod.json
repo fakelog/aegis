@@ -1,35 +1,35 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "aegis",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Aegis",
+  "description": "This is a Minecraft mod specially made for VK HackerWars Bot.",
   "authors": [
-    "Me!"
+    "fakelog"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/fakelog/Aegis",
+    "sources": "https://github.com/fakelog/Aegis"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/aegis/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.github.fakelog.aegis.Aegis"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "aegis.mixins.json"
   ],
 
   "depends": {
     "fabricloader": ">=0.14.6",
     "fabric": "*",
-    "minecraft": "~1.19",
+    "minecraft": "1.19",
     "java": ">=17"
   },
   "suggests": {
