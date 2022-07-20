@@ -6,7 +6,8 @@
   "mixins": [
   ],
   "client": [
-    "AegisMixin"
+    "AegisMixin",
+    "BoatEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1
