@@ -37,4 +37,4 @@ jobs:
           automatic_release_tag: "latest"
           prerelease: true
           title: "Auto Build"
-          files: 'build/libs/*.jar;!build/libs/*-sources.jar'
+          files: 'build/libs/*.jar'
