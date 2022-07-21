@@ -20,9 +20,13 @@
   "entrypoints": {
     "main": [
       "com.github.fakelog.aegis.Aegis"
+    ],
+    "client": [
+      "com.github.fakelog.aegis.AegisClient"
     ]
   },
   "mixins": [
+    "aegis.client.mixins.json",
     "aegis.mixins.json"
   ],
 

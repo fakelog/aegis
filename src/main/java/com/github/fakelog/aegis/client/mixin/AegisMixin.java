@@ -1,4 +1,4 @@
-package com.github.fakelog.aegis.mixin;
+package com.github.fakelog.aegis.client.mixin;
 
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
