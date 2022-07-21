@@ -6,7 +6,7 @@
 
 package com.github.fakelog.aegis;
 
-import com.github.fakelog.aegis.client.entity.armor.Renderer.AquaArmorRenderer;
+import com.github.fakelog.aegis.client.renderer.armor.AquaArmorRenderer;
 import com.github.fakelog.aegis.items.AegisItems;
 import net.fabricmc.api.ClientModInitializer;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;

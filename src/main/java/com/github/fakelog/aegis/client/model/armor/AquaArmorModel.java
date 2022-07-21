@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.github.fakelog.aegis.client.entity.armor.model;
+package com.github.fakelog.aegis.client.model.armor;
 
 import com.github.fakelog.aegis.Aegis;
 import com.github.fakelog.aegis.items.custom.AquaArmorItem;
