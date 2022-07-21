@@ -1,3 +1,9 @@
+/*
+ * Copyright (C) 2022 fakelog
+ *
+ * SPDX-License-Identifier: Apache-2.0
+ */
+
 package com.github.fakelog.aegis;
 
 import com.github.fakelog.aegis.items.RegisterItems;
