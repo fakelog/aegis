@@ -8,6 +8,11 @@ package com.github.fakelog.aegis.client.renderer.armor;
 
 import com.github.fakelog.aegis.client.model.armor.AquaArmorModel;
 import com.github.fakelog.aegis.items.custom.AquaArmorItem;
+import net.minecraft.client.render.RenderLayer;
+import net.minecraft.client.render.VertexConsumer;
+import net.minecraft.client.render.VertexConsumerProvider;
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.util.Identifier;
 import software.bernie.geckolib3.renderers.geo.GeoArmorRenderer;
 
 public class AquaArmorRenderer extends GeoArmorRenderer<AquaArmorItem> {
@@ -24,5 +29,13 @@ public class AquaArmorRenderer extends GeoArmorRenderer<AquaArmorItem> {
         this.leftLegBone = "armorRightLeg";
         this.rightBootBone = "armorLeftBoot";
         this.leftBootBone = "armorRightBoot";
+    }
+
+    @Override
+    public RenderLayer getRenderType(AquaArmorItem animatable, float particleTicks, MatrixStack stack,
+                                     VertexConsumerProvider renderTypeBuffer, VertexConsumer vertexBuilder, int packedLightIn,
+                                     Identifier textureLocation) {
+
+        return RenderLayer.getEntityTranslucent(getTextureResource(animatable));
     }
 }
