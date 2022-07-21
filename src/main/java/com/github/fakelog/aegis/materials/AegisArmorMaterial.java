@@ -15,46 +15,77 @@ import net.minecraft.sound.SoundEvents;
 
 public class AegisArmorMaterial implements ArmorMaterial {
 
-    private static final int[] BASE_DURABILITY = new int[] {13, 15, 16, 11};
-    private static final int[] PROTECTION_VALUES = new int[] {3, 6, 8, 3};
+    private static final int[] BASE_DURABILITY;
+    private static final int [] BASE_PROTECTION;
+
+    private final int durability;
+    private final int enchantability;
+    private final SoundEvent equipSound;
+    private final Ingredient repairIngredient;
+    private final String name;
+    private final float toughness;
+    private final float knockbackResistance;
+
+    private AegisArmorMaterial(
+            int durability,
+            int enchantability,
+            SoundEvent equipSound,
+            Ingredient repairIngredient,
+            String name,
+            float toughness,
+            float knockbackResistance
+    ) {
+        this.durability = durability;
+        this.enchantability = enchantability;
+        this.equipSound = equipSound;
+        this.repairIngredient = repairIngredient;
+        this.name = name;
+        this.toughness = toughness;
+        this.knockbackResistance = knockbackResistance;
+    }
 
     @Override
     public int getDurability(EquipmentSlot slot) {
-        return BASE_DURABILITY[slot.getEntitySlotId()] * 37;
+        return BASE_DURABILITY[slot.getEntitySlotId()] * this.durability;
     }
 
     @Override
     public int getProtectionAmount(EquipmentSlot slot) {
-        return PROTECTION_VALUES[slot.getEntitySlotId()];
+        return BASE_PROTECTION[slot.getEntitySlotId()];
     }
 
     @Override
     public int getEnchantability() {
-        return 50;
+        return this.enchantability;
     }
 
     @Override
     public SoundEvent getEquipSound() {
-        return SoundEvents.ITEM_ARMOR_EQUIP_TURTLE;
+        return this.equipSound;
     }
 
     @Override
     public Ingredient getRepairIngredient() {
-        return Ingredient.ofItems(Items.GLASS);
+        return this.repairIngredient;
     }
 
     @Override
     public String getName() {
-        return "aegis_aqua";
+        return this.name;
     }
 
     @Override
     public float getToughness() {
-        return 3.0F;
+        return this.toughness;
     }
 
     @Override
     public float getKnockbackResistance() {
-        return 0;
+        return this.knockbackResistance;
+    }
+
+    static {
+        BASE_DURABILITY = new int[] {13, 15, 16, 11};
+        BASE_PROTECTION = new int[] {3, 6, 8, 3};
     }
 }
