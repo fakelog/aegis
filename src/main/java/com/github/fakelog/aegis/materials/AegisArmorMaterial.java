@@ -13,7 +13,10 @@ import net.minecraft.recipe.Ingredient;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 
-public class AegisArmorMaterial implements ArmorMaterial {
+public enum AegisArmorMaterial implements ArmorMaterial {
+
+    AQUAMARINE(37, 50, SoundEvents.ITEM_ARMOR_EQUIP_TURTLE,
+            Ingredient.ofItems(Items.GLASS), "aquamarine", 0.0f, 0);
 
     private static final int[] BASE_DURABILITY;
     private static final int [] BASE_PROTECTION;
