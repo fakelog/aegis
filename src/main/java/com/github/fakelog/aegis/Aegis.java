@@ -6,8 +6,8 @@
 
 package com.github.fakelog.aegis;
 
-import com.github.fakelog.aegis.items.AegisItems;
 import net.fabricmc.api.ModInitializer;
+import software.bernie.geckolib3.GeckoLib;
 
 import java.util.logging.LogManager;
 import java.util.logging.Logger;
@@ -19,6 +19,7 @@ public class Aegis implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		AegisItems.register();
+
+		GeckoLib.initialize();
 	}
 }
