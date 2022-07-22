@@ -1,6 +1,5 @@
 package com.github.fakelog.aegis.mixin;
 
-
 import com.github.fakelog.aegis.tool.CauldronFix;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
