@@ -17,6 +17,7 @@
 ## Включенные моды:
 
 - [Boat Fall](https://github.com/EcoBuilder13/boat-fall)
+- [CauldronFix](https://github.com/omoflop/CauldronFix)
 - [Ksyxis](https://github.com/VidTu/Ksyxis)
 
 
