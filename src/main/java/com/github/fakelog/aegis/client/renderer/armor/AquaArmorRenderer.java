@@ -7,7 +7,7 @@
 package com.github.fakelog.aegis.client.renderer.armor;
 
 import com.github.fakelog.aegis.client.model.armor.AquaArmorModel;
-import com.github.fakelog.aegis.items.custom.AquaArmorItem;
+import com.github.fakelog.aegis.item.armor.AquaArmorItem;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.VertexConsumerProvider;

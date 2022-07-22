@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.github.fakelog.aegis.items;
+package com.github.fakelog.aegis.item;
 
 import com.github.fakelog.aegis.Aegis;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
