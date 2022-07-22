@@ -1,9 +1,31 @@
-# Fabric Example Mod
+# Aegis Mod Fabric Minecraft 1.19
 
-## Setup
+## Установка
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+1. Скачайте мод:
+   - [GitHub](https://github.com/fakelog/aegis/releases)
+2. Поместите файл *.jar в:
+   - Для Linux - $HOME/.minecraft/mods
+   - Для Windows - %APPDATA%/Romaning/.minecraft/mods
 
-## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Зависимость:
+
+- GeckoLib - [CurseForge](https://www.curseforge.com/minecraft/mc-mods/geckolib)
+
+
+## Включенные моды:
+
+- [Boat Fall](https://github.com/EcoBuilder13/boat-fall)
+- [Ksyxis](https://github.com/VidTu/Ksyxis)
+
+
+## Ошибки
+
+Если у вас крашится Minecraft, пожалуйста, убедитесь:
+- У вас одновременно не устанновлен Aegis и моды из списка включённых.
+- У вас установлены моды из списка зависимостей.
+
+## Лицензия
+
+Этот мод распространятся по лицензии Apache 2.0
