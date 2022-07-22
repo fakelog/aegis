@@ -6,7 +6,8 @@
   "mixins": [
     "BoatEntityMixin",
     "ItemDispenserBehaviorMixin",
-    "MinecraftServerMixin"
+    "MinecraftServerMixin",
+    "SnowballEntityMixin"
   ],
   "client": [],
   "injectors": {
