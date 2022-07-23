@@ -6,7 +6,7 @@
 
 package com.github.fakelog.aegis.item.armor;
 
-import com.github.fakelog.aegis.materials.AegisArmorMaterial;
+import com.github.fakelog.aegis.material.AegisArmorMaterial;
 import com.google.common.collect.ImmutableMap;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EquipmentSlot;
