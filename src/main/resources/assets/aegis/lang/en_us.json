@@ -1,5 +1,11 @@
 {
   "itemGroup.aegis.aegis_group": "Aegis",
 
+  "item.aegis.apple_block": "Apple Block",
+
+  "item.aegis.aqua_ingot": "Aqua ingot",
+  "item.aegis.aqua_raw": "Aqua Raw",
+  "item.aegis.aqua_raw_ingot": "Aqua Raw ingot",
+
   "item.aegis.aqua_helmet": "Aqua Helmet"
 }

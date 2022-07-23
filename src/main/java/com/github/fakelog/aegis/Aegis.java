@@ -8,6 +8,7 @@ package com.github.fakelog.aegis;
 
 import com.github.fakelog.aegis.block.AegisBlocks;
 import com.github.fakelog.aegis.item.AegisItems;
+import com.github.fakelog.aegis.world.gen.AegisWorldGen;
 import net.fabricmc.api.ModInitializer;
 import software.bernie.geckolib3.GeckoLib;
 
@@ -24,6 +25,8 @@ public class Aegis implements ModInitializer {
 
 		AegisBlocks.registerAegisBlock();
 		AegisItems.registerAegisItems();
+
+		AegisWorldGen.generateAegisWorldGen();
 
 		GeckoLib.initialize();
 	}
