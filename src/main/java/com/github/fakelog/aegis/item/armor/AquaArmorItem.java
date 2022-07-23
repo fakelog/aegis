@@ -20,6 +20,7 @@ import software.bernie.geckolib3.core.event.predicate.AnimationEvent;
 import software.bernie.geckolib3.core.manager.AnimationData;
 import software.bernie.geckolib3.core.manager.AnimationFactory;
 
+import java.util.Arrays;
 import java.util.HashSet;
 
 public class AquaArmorItem extends AegisArmorItem implements IAnimatable {
@@ -50,7 +51,8 @@ public class AquaArmorItem extends AegisArmorItem implements IAnimatable {
             }
         }
 
-        boolean isWearingAll = armorSet.contains(AegisItems.AQUA_HELMET);
+        boolean isWearingAll = armorSet.containsAll(Arrays.asList(AegisItems.AQUA_HELMET, AegisItems.AQUA_CHESTPLATE,
+                                                                  AegisItems.AQUA_LEGGINS, AegisItems.AQUA_BOOTS));
 
         return isWearingAll ? PlayState.CONTINUE : PlayState.STOP;
 
