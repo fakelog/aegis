@@ -16,8 +16,9 @@ public class AegisBlocks {
     public static final Block APPLE_STEM;
 
     public static final Block AQUA_ORE;
-    public static final Block DEEPSLATE_AQUA_ORE;
-    public static final Block END_AQUA_ORE;
+    public static final Block AQUA_DEEPSLATE_ORE;
+    public static final Block AQUA_END_ORE;
+    public static final Block AQUA_RAW_BLOCK;
 
     public static void registerAegisBlock() {
         Aegis.LOGGER.info("Registering Mod Items for " + Aegis.MOD_ID);
@@ -36,11 +37,14 @@ public class AegisBlocks {
         AQUA_ORE = AegisRegister.registerBlock("aqua_ore",
                 new OreBlock(Settings.of(Material.STONE).strength(4.5F).requiresTool(),
                         UniformIntProvider.create(1, 2)), AegisGroups.AEGIS_GROUP_FIREPROOF);
-        DEEPSLATE_AQUA_ORE = AegisRegister.registerBlock("deeplsate_aqua_ore",
+        AQUA_DEEPSLATE_ORE = AegisRegister.registerBlock("aqua_deepslate_ore",
                 new OreBlock(Settings.of(Material.STONE).strength(4.5F).requiresTool(),
                         UniformIntProvider.create(2, 3)), AegisGroups.AEGIS_GROUP_FIREPROOF);
-        END_AQUA_ORE = AegisRegister.registerBlock("end_aqua_ore",
+        AQUA_END_ORE = AegisRegister.registerBlock("aqua_end_ore",
                 new OreBlock(Settings.of(Material.STONE).strength(4.5F).requiresTool(),
                         UniformIntProvider.create(3, 5)), AegisGroups.AEGIS_GROUP_FIREPROOF);
+        AQUA_RAW_BLOCK = AegisRegister.registerBlock("aqua_raw_block",
+                new Block(Settings.of(Material.STONE).strength(5.0F).requiresTool()),
+                        AegisGroups.AEGIS_GROUP_FIREPROOF);
     }
 }

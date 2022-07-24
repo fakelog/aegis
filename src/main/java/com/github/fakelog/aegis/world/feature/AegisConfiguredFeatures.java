@@ -15,11 +15,11 @@ public class AegisConfiguredFeatures {
             OreFeatureConfig.createTarget(OreConfiguredFeatures.STONE_ORE_REPLACEABLES,
                     AegisBlocks.AQUA_ORE.getDefaultState()),
             OreFeatureConfig.createTarget(OreConfiguredFeatures.DEEPSLATE_ORE_REPLACEABLES,
-                    AegisBlocks.DEEPSLATE_AQUA_ORE.getDefaultState()));
+                    AegisBlocks.AQUA_DEEPSLATE_ORE.getDefaultState()));
 
     public static final List<OreFeatureConfig.Target> END_AQUA_ORES = List.of(
             OreFeatureConfig.createTarget(new BlockMatchRuleTest(Blocks.END_STONE),
-                    AegisBlocks.END_AQUA_ORE.getDefaultState()));
+                    AegisBlocks.AQUA_END_ORE.getDefaultState()));
 
     public static final RegistryEntry<ConfiguredFeature<OreFeatureConfig, ?>> AQUA_ORE =
             ConfiguredFeatures.register("aqua_ore", Feature.ORE,
