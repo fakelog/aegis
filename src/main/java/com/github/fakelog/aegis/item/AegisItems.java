@@ -16,10 +16,9 @@ import net.minecraft.item.Item;
 
 public class AegisItems {
 
-    public static final Item AQUA_INGOT;
-
+    public static final Item AQUA;
     public static final Item AQUA_RAW;
-    public static final Item AQUA_RAW_INGOT;
+
 
     public static final Item AQUA_HELMET = AegisRegister.registerItem("aqua_helmet",
             new AquaArmorItem(AegisArmorMaterial.AQUAMARINE, EquipmentSlot.HEAD, AegisGroups.AEGIS_GROUP));
@@ -35,9 +34,8 @@ public class AegisItems {
     }
 
     static {
-        AQUA_INGOT = AegisRegister.registerItem("aqua_ingot", new Item(AegisGroups.AEGIS_GROUP));
+        AQUA = AegisRegister.registerItem("aqua", new Item(AegisGroups.AEGIS_GROUP));
         AQUA_RAW = AegisRegister.registerItem("aqua_raw", new Item(AegisGroups.AEGIS_GROUP));
-        AQUA_RAW_INGOT = AegisRegister.registerItem("aqua_raw_ingot", new Item(AegisGroups.AEGIS_GROUP));
     }
 }
 
