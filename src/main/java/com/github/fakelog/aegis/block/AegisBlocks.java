@@ -35,13 +35,13 @@ public class AegisBlocks {
                         Settings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.STEM)), AegisGroups.AEGIS_GROUP);
 
         AQUA_ORE = AegisRegister.registerBlock("aqua_ore",
-                new OreBlock(Settings.of(Material.STONE).strength(4.5F).requiresTool(),
+                new OreBlock(Settings.of(Material.STONE).strength(3.0F).requiresTool(),
                         UniformIntProvider.create(1, 2)), AegisGroups.AEGIS_GROUP_FIREPROOF);
         AQUA_DEEPSLATE_ORE = AegisRegister.registerBlock("aqua_deepslate_ore",
-                new OreBlock(Settings.of(Material.STONE).strength(4.5F).requiresTool(),
+                new OreBlock(Settings.of(Material.STONE).strength(4.0F).requiresTool(),
                         UniformIntProvider.create(2, 3)), AegisGroups.AEGIS_GROUP_FIREPROOF);
         AQUA_END_ORE = AegisRegister.registerBlock("aqua_end_ore",
-                new OreBlock(Settings.of(Material.STONE).strength(4.5F).requiresTool(),
+                new OreBlock(Settings.of(Material.STONE).strength(3.0F).requiresTool(),
                         UniformIntProvider.create(3, 5)), AegisGroups.AEGIS_GROUP_FIREPROOF);
         AQUA_RAW_BLOCK = AegisRegister.registerBlock("aqua_raw_block",
                 new Block(Settings.of(Material.STONE).strength(5.0F).requiresTool()),
