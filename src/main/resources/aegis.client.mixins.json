@@ -5,7 +5,10 @@
   "compatibilityLevel": "JAVA_17",
   "mixins": [],
   "client": [
-    "AegisMixin"
+    "AegisMixin",
+    "WaterBubbleParticleMixin",
+    "BubbleColumnUpParticleMixin",
+    "CurrentDownParticleMixin"
   ],
   "injectors": {
     "defaultRequire": 1

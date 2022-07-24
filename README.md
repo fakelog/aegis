@@ -7,6 +7,7 @@
 - Новая броня
   - Аква
 - Теперь если упасть с высоты на лодке, то она сломается.
+- Водные пузырьки теперь лопаются, когда всплывают.
 - Котел можно наполнять и опустошать с помощью раздатчика.
 - Чанки больше не загружаются при входе в мир, что ускоряет загрузку мира.
 - Снежки теперь накладывают эффект заморозки при попадании.
@@ -27,6 +28,7 @@
 ## Включенные моды:
 
 - [Boat Fall](https://github.com/EcoBuilder13/boat-fall)
+- [Make Bubbles Pop Mod](https://github.com/Tschipcraft/fabric_make_bubbles_pop_mod)
 - [CauldronFix](https://github.com/omoflop/CauldronFix)
 - [Ksyxis](https://github.com/VidTu/Ksyxis)
 
