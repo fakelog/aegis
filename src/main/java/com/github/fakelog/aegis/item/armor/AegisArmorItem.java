@@ -22,14 +22,14 @@ import java.util.Map;
 
 public class AegisArmorItem extends ArmorItem {
 
-    private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP =
-            (new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>())
-                    .put(AegisArmorMaterial.AQUAMARINE,
-                            new StatusEffectInstance(StatusEffects.LUCK, 400, 1)).build();
-
     public AegisArmorItem(ArmorMaterial material, EquipmentSlot slot, Settings settings) {
         super(material, slot, settings);
     }
+
+    private static final Map<ArmorMaterial, StatusEffectInstance> MATERIAL_TO_EFFECT_MAP =
+            (new ImmutableMap.Builder<ArmorMaterial, StatusEffectInstance>())
+                    .put(AegisArmorMaterial.AQUAMARINE,
+                            new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE, 400, 1, false, false, false)).build();
 
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {

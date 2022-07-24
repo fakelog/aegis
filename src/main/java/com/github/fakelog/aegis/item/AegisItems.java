@@ -8,7 +8,7 @@ package com.github.fakelog.aegis.item;
 
 import com.github.fakelog.aegis.Aegis;
 import com.github.fakelog.aegis.AegisGroups;
-import com.github.fakelog.aegis.item.armor.AquaArmorItem;
+import com.github.fakelog.aegis.item.armor.animation.AquaArmorItem;
 import com.github.fakelog.aegis.material.AegisArmorMaterial;
 import com.github.fakelog.aegis.register.AegisRegister;
 import net.minecraft.entity.EquipmentSlot;

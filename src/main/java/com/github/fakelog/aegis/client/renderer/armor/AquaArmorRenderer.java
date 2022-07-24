@@ -7,7 +7,7 @@
 package com.github.fakelog.aegis.client.renderer.armor;
 
 import com.github.fakelog.aegis.client.model.armor.AquaArmorModel;
-import com.github.fakelog.aegis.item.armor.AquaArmorItem;
+import com.github.fakelog.aegis.item.armor.animation.AquaArmorItem;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.VertexConsumerProvider;
@@ -25,10 +25,10 @@ public class AquaArmorRenderer extends GeoArmorRenderer<AquaArmorItem> {
         this.bodyBone = "armorBody";
         this.rightArmBone = "armorRightArm";
         this.leftArmBone = "armorLeftArm";
-        this.rightLegBone = "armorLeftLeg";
-        this.leftLegBone = "armorRightLeg";
-        this.rightBootBone = "armorLeftBoot";
-        this.leftBootBone = "armorRightBoot";
+        this.rightLegBone = "armorRightLeg";
+        this.leftLegBone = "armorLeftLeg";
+        this.rightBootBone = "armorRightBoot";
+        this.leftBootBone = "armorLeftBoot";
     }
 
     @Override

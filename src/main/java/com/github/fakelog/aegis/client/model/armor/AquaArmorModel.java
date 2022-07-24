@@ -7,7 +7,7 @@
 package com.github.fakelog.aegis.client.model.armor;
 
 import com.github.fakelog.aegis.Aegis;
-import com.github.fakelog.aegis.item.armor.AquaArmorItem;
+import com.github.fakelog.aegis.item.armor.animation.AquaArmorItem;
 import net.minecraft.util.Identifier;
 import software.bernie.geckolib3.model.AnimatedGeoModel;
 
