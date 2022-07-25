@@ -1,4 +1,4 @@
-package com.github.fakelog.aegis.tool;
+package com.github.fakelog.aegis.common.tool;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;

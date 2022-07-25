@@ -1,4 +1,4 @@
-package com.github.fakelog.aegis.mixin;
+package com.github.fakelog.aegis.common.mixin;
 
 import net.minecraft.entity.vehicle.BoatEntity;
 import org.spongepowered.asm.mixin.Mixin;

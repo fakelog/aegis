@@ -1,7 +1,7 @@
-package com.github.fakelog.aegis.world.feature;
+package com.github.fakelog.aegis.common.world.feature;
 
 import com.github.fakelog.aegis.Aegis;
-import com.github.fakelog.aegis.block.AegisBlocks;
+import com.github.fakelog.aegis.common.block.AegisBlocks;
 import net.minecraft.block.Blocks;
 import net.minecraft.structure.rule.BlockMatchRuleTest;
 import net.minecraft.util.registry.RegistryEntry;

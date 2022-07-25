@@ -1,4 +1,4 @@
-package com.github.fakelog.aegis.world.gen;
+package com.github.fakelog.aegis.common.world.gen;
 
 public class AegisWorldGen {
 

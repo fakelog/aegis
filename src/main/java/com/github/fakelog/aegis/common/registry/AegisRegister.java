@@ -1,4 +1,4 @@
-package com.github.fakelog.aegis.register;
+package com.github.fakelog.aegis.common.registry;
 
 import com.github.fakelog.aegis.Aegis;
 import net.minecraft.block.Block;

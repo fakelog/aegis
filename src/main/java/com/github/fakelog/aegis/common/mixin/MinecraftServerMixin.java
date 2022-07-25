@@ -1,4 +1,4 @@
-package com.github.fakelog.aegis.mixin;
+package com.github.fakelog.aegis.common.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.world.ServerChunkManager;

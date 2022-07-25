@@ -4,9 +4,9 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.github.fakelog.aegis.item.armor;
+package com.github.fakelog.aegis.common.item.armor;
 
-import com.github.fakelog.aegis.material.AegisArmorMaterial;
+import com.github.fakelog.aegis.common.material.AegisArmorMaterial;
 import com.google.common.collect.ImmutableMap;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EquipmentSlot;
@@ -34,8 +34,7 @@ public class AegisArmorItem extends ArmorItem {
     @Override
     public void inventoryTick(ItemStack stack, World world, Entity entity, int slot, boolean selected) {
         if (!world.isClient()) {
-            if (entity instanceof PlayerEntity) {
-                PlayerEntity player = (PlayerEntity) entity;
+            if (entity instanceof PlayerEntity player) {
 
                 if(hasFullSuitOfArmorOn(player)) {
                     evaluateArmorEffects(player);

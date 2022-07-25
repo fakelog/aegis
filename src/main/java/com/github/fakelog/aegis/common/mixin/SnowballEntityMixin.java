@@ -4,7 +4,7 @@
   * SPDX-License-Identifier: Apache-2.0
   */
 
-package com.github.fakelog.aegis.mixin;
+package com.github.fakelog.aegis.common.mixin;
 
 import net.minecraft.entity.projectile.thrown.SnowballEntity;
 import net.minecraft.util.hit.EntityHitResult;

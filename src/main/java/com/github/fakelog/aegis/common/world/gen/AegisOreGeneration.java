@@ -1,6 +1,6 @@
-package com.github.fakelog.aegis.world.gen;
+package com.github.fakelog.aegis.common.world.gen;
 
-import com.github.fakelog.aegis.world.feature.AegisPlacedFeatures;
+import com.github.fakelog.aegis.common.world.feature.AegisPlacedFeatures;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.minecraft.world.gen.GenerationStep;

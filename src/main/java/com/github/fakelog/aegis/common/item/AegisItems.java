@@ -4,13 +4,13 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-package com.github.fakelog.aegis.item;
+package com.github.fakelog.aegis.common.item;
 
 import com.github.fakelog.aegis.Aegis;
-import com.github.fakelog.aegis.AegisGroups;
-import com.github.fakelog.aegis.item.armor.animation.AquaArmorItem;
-import com.github.fakelog.aegis.material.AegisArmorMaterial;
-import com.github.fakelog.aegis.register.AegisRegister;
+import com.github.fakelog.aegis.common.AegisGroups;
+import com.github.fakelog.aegis.common.item.armor.animation.AquaArmorItem;
+import com.github.fakelog.aegis.common.material.AegisArmorMaterial;
+import com.github.fakelog.aegis.common.registry.AegisRegister;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.Item;
 

@@ -1,8 +1,8 @@
-package com.github.fakelog.aegis.block;
+package com.github.fakelog.aegis.common.block;
 
 import com.github.fakelog.aegis.Aegis;
-import com.github.fakelog.aegis.AegisGroups;
-import com.github.fakelog.aegis.register.AegisRegister;
+import com.github.fakelog.aegis.common.AegisGroups;
+import com.github.fakelog.aegis.common.registry.AegisRegister;
 import net.minecraft.block.*;
 import net.minecraft.block.AbstractBlock.Settings;
 import net.minecraft.item.Items;

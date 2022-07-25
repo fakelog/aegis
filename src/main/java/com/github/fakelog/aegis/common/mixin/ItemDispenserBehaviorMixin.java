@@ -1,6 +1,6 @@
-package com.github.fakelog.aegis.mixin;
+package com.github.fakelog.aegis.common.mixin;
 
-import com.github.fakelog.aegis.tool.CauldronFix;
+import com.github.fakelog.aegis.common.tool.CauldronFix;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;

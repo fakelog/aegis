@@ -1,4 +1,4 @@
-package com.github.fakelog.aegis.world.feature;
+package com.github.fakelog.aegis.common.world.feature;
 
 import net.minecraft.util.registry.RegistryEntry;
 import net.minecraft.world.gen.YOffset;

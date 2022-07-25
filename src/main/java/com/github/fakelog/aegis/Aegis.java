@@ -6,10 +6,10 @@
 
 package com.github.fakelog.aegis;
 
-import com.github.fakelog.aegis.block.AegisBlocks;
-import com.github.fakelog.aegis.item.AegisItems;
-import com.github.fakelog.aegis.world.feature.AegisConfiguredFeatures;
-import com.github.fakelog.aegis.world.gen.AegisWorldGen;
+import com.github.fakelog.aegis.common.block.AegisBlocks;
+import com.github.fakelog.aegis.common.item.AegisItems;
+import com.github.fakelog.aegis.common.world.feature.AegisConfiguredFeatures;
+import com.github.fakelog.aegis.common.world.gen.AegisWorldGen;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
