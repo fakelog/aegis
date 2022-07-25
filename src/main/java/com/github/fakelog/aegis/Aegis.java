@@ -8,20 +8,23 @@ package com.github.fakelog.aegis;
 
 import com.github.fakelog.aegis.block.AegisBlocks;
 import com.github.fakelog.aegis.item.AegisItems;
+import com.github.fakelog.aegis.world.feature.AegisConfiguredFeatures;
 import com.github.fakelog.aegis.world.gen.AegisWorldGen;
 import net.fabricmc.api.ModInitializer;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import software.bernie.geckolib3.GeckoLib;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 
 public class Aegis implements ModInitializer {
 
 	public static final String MOD_ID = "aegis";
-	public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
+	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {
+
+		AegisConfiguredFeatures.registerConfiguredFeatures();
 
 		AegisBlocks.registerAegisBlock();
 		AegisItems.registerAegisItems();
