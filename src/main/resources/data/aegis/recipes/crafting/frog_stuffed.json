@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#*#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "aegis:frog_hide"
+    },
+    "*": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "aegis:frog_stuffed",
+    "count": 1
+  }
+}
