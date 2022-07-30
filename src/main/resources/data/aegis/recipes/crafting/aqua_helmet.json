@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#@#",
+    "#!#",
+    "#*#"
+  ],
+  "key": {
+    "#": {
+      "item": "aegis:aqua"
+    },
+    "@": {
+      "item": "aegis:frog_stuffed"
+    },
+    "!": {
+      "item": "minecraft:glass"
+    },
+    "*": {
+      "item": "aegis:goldtherite_ingot"
+    }
+  },
+  "result": {
+    "item": "aegis:aqua_helmet",
+    "count": 1
+  }
+}

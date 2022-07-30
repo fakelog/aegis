@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "# #",
+    "###",
+    "#*#"
+  ],
+  "key": {
+    "#": {
+      "item": "aegis:aqua"
+    },
+    "*": {
+      "item": "aegis:goldtherite_ingot"
+    }
+  },
+  "result": {
+    "item": "aegis:aqua_mantle",
+    "count": 1
+  }
+}
