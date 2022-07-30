@@ -2,17 +2,17 @@
   "itemGroup.aegis.aegis_group": "Aegis",
 
   "block.aegis.apple_block": "Блок яблОка",
+  "block.aegis.aqua_block": "Блок необработанного аквамарина",
 
-  "block.aegis.aqua_ore": "Aqua Ore",
-  "block.aegis.aqua_deepslate_ore": "Deepslate Aqua Ore",
-  "block.aegis.aqua_end_ore": "End Aqua Ore",
-  "block.aegis.aqua_raw_block": "Aqua Raw Block",
+  "block.aegis.aqua_deepslate_ore": "Сланцевая аква-руда",
+  "block.aegis.aqua_end_ore": "Эндерняковая аква-руда",
+  "block.aegis.aqua_ore": "Аква-руда",
 
-  "item.aegis.aqua": "Aquamarine",
-  "item.aegis.aqua_raw": "Aqua Raw",
+  "item.aegis.aqua": "Аквамарин",
+  "item.aegis.aqua_raw": "Необработанный аквамарин",
 
-  "item.aegis.aqua_helmet": "Aqua Helmet",
-  "item.aegis.aqua_mantle": "Aqua Mantle",
-  "item.aegis.aqua_shorts": "Aqua Shorts",
-  "item.aegis.aqua_geta": "Aqua Geta"
+  "item.aegis.aqua_helmet": "Аква-Шлем",
+  "item.aegis.aqua_mantle": "Аква-Мантия",
+  "item.aegis.aqua_shorts": "Аква-Шорты",
+  "item.aegis.aqua_geta": "Аква-Гэта"
 }
