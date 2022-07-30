@@ -2,10 +2,10 @@
   "block.aegis.aqua_ore": "Аква-руда",
   "block.aegis.aqua_deepslate_ore": "Сланцевая аква-руда",
   "block.aegis.aqua_end_ore": "Эндерняковая аква-руда",
-  "block.aegis.aqua_raw_block": "Блок рудного аквамарина",
+  "block.aegis.aqua_raw_block": "Блок необработанного аквамарина",
 
   "item.aegis.aqua": "Аквамарин",
-  "item.aegis.aqua_raw": "Рудный аквамарин",
+  "item.aegis.aqua_raw": "Необработанный аквамарин",
 
   "item.aegis.aqua_helmet": "Аква-Шлем",
   "item.aegis.aqua_mantle": "Аква-Мантия",
