@@ -28,7 +28,7 @@ public class AegisGroups {
                 .icon(() -> new ItemStack(AegisItems.AQUA_HELMET))
                 .build();
 
-        AEGIS_GROUP = new Item.Settings().group(AegisGroups.AEGIS_ITEM_GROUP);
+        AEGIS_GROUP = new Item.Settings().group(AegisGroups.AEGIS_ITEM_GROUP).maxCount(64);
         AEGIS_GROUP_FIREPROOF = AEGIS_GROUP.fireproof();
     }
 }
