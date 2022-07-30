@@ -5,6 +5,7 @@ import com.github.fakelog.aegis.common.AegisGroups;
 import com.github.fakelog.aegis.common.registry.AegisRegister;
 import net.minecraft.block.Block;
 import net.minecraft.block.AbstractBlock.Settings;
+import net.minecraft.block.MapColor;
 import net.minecraft.block.Material;
 import net.minecraft.block.OreBlock;
 import net.minecraft.sound.BlockSoundGroup;
@@ -28,11 +29,11 @@ public class AegisBlocks {
                 new AppleBlock(Settings.of(Material.GOURD).strength(1.0F).sounds(BlockSoundGroup.WOOD).nonOpaque()), AegisGroups.AEGIS_GROUP);
 
         AQUA_ORE = AegisRegister.registerBlock("aqua_ore",
-                new OreBlock(Settings.of(Material.STONE).strength(3.0F).requiresTool(),
-                        UniformIntProvider.create(1, 2)), AegisGroups.AEGIS_GROUP_FIREPROOF);
+                new OreBlock(Settings.of(Material.STONE).requiresTool().strength(3.0F, 3.0F),
+                        UniformIntProvider.create(3, 5)), AegisGroups.AEGIS_GROUP_FIREPROOF);
         AQUA_DEEPSLATE_ORE = AegisRegister.registerBlock("aqua_deepslate_ore",
-                new OreBlock(Settings.of(Material.STONE).strength(4.0F).requiresTool(),
-                        UniformIntProvider.create(2, 3)), AegisGroups.AEGIS_GROUP_FIREPROOF);
+                new OreBlock(Settings.copy(AQUA_ORE).mapColor(MapColor.DEEPSLATE_GRAY).strength(4.5F, 3.0F),
+                        UniformIntProvider.create(3, 5)), AegisGroups.AEGIS_GROUP_FIREPROOF);
         AQUA_END_ORE = AegisRegister.registerBlock("aqua_end_ore",
                 new OreBlock(Settings.of(Material.STONE).strength(3.0F).requiresTool(),
                         UniformIntProvider.create(3, 5)), AegisGroups.AEGIS_GROUP_FIREPROOF);
