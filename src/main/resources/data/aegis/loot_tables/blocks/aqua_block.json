@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "aegis:aqua_raw_block"
+          "name": "aegis:aqua_block"
         }
       ],
       "rolls": 1.0

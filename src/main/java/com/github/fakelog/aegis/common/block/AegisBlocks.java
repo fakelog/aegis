@@ -13,11 +13,11 @@ import net.minecraft.util.math.intprovider.UniformIntProvider;
 public class AegisBlocks {
 
     public static final Block APPLE_BLOCK;
+    public static final Block AQUA_BLOCK;
 
     public static final Block AQUA_ORE;
     public static final Block AQUA_DEEPSLATE_ORE;
     public static final Block AQUA_END_ORE;
-    public static final Block AQUA_RAW_BLOCK;
 
     public static void registerAegisBlock() {
         Aegis.LOGGER.info("Registering Mod Items for " + Aegis.MOD_ID);
@@ -36,8 +36,9 @@ public class AegisBlocks {
         AQUA_END_ORE = AegisRegister.registerBlock("aqua_end_ore",
                 new OreBlock(Settings.of(Material.STONE).strength(3.0F).requiresTool(),
                         UniformIntProvider.create(3, 5)), AegisGroups.AEGIS_GROUP_FIREPROOF);
-        AQUA_RAW_BLOCK = AegisRegister.registerBlock("aqua_raw_block",
-                new Block(Settings.of(Material.STONE).strength(5.0F).requiresTool()),
+
+        AQUA_BLOCK = AegisRegister.registerBlock("aqua_block",
+                new Block(Settings.of(Material.METAL).strength(5.0F).requiresTool()),
                         AegisGroups.AEGIS_GROUP_FIREPROOF);
     }
 }
