@@ -19,7 +19,6 @@ public class AegisItems {
     public static final Item AQUA;
     public static final Item AQUA_RAW;
 
-
     public static final Item AQUA_HELMET;
     public static final Item AQUA_MANTLE;
     public static final Item AQUA_SHORTS;
@@ -28,11 +27,18 @@ public class AegisItems {
     public static final Item FROG_HIDE;
     public static final Item FROG_STUFFED;
 
+    public static final Item GOLDTHERITE_INGOT;
+
     public static void registerAegisItems() {
         Aegis.LOGGER.info("Registering Mod Items for " + Aegis.MOD_ID);
     }
 
     static {
+        // Обычные
+        FROG_HIDE = AegisRegister.registerItem("frog_hide", new Item(AegisGroups.AEGIS_ITEMS));
+        FROG_STUFFED = AegisRegister.registerItem("frog_stuffed", new Item(AegisGroups.AEGIS_ITEMS));
+
+        // Не горят в огне
         AQUA = AegisRegister.registerItem("aqua", new Item(AegisGroups.AEGIS_ITEMS_FIREPROOF));
         AQUA_RAW = AegisRegister.registerItem("aqua_raw", new Item(AegisGroups.AEGIS_ITEMS_FIREPROOF));
 
@@ -45,8 +51,7 @@ public class AegisItems {
         AQUA_GETA = AegisRegister.registerItem("aqua_geta",
                 new AquaArmorItem(AegisArmorMaterial.AQUAMARINE, EquipmentSlot.FEET, AegisGroups.AEGIS_ITEMS_FIREPROOF));
 
-        FROG_HIDE = AegisRegister.registerItem("frog_hide", new Item(AegisGroups.AEGIS_ITEMS));
-        FROG_STUFFED = AegisRegister.registerItem("frog_stuffed", new Item(AegisGroups.AEGIS_ITEMS));
+        GOLDTHERITE_INGOT = AegisRegister.registerItem("goldtherite_ingot", new Item(AegisGroups.AEGIS_ITEMS_FIREPROOF));
     }
 }
 
