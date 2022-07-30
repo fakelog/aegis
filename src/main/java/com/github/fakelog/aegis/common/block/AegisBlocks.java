@@ -3,17 +3,16 @@ package com.github.fakelog.aegis.common.block;
 import com.github.fakelog.aegis.Aegis;
 import com.github.fakelog.aegis.common.AegisGroups;
 import com.github.fakelog.aegis.common.registry.AegisRegister;
-import net.minecraft.block.*;
+import net.minecraft.block.Block;
 import net.minecraft.block.AbstractBlock.Settings;
-import net.minecraft.item.Items;
+import net.minecraft.block.Material;
+import net.minecraft.block.OreBlock;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
 public class AegisBlocks {
 
     public static final Block APPLE_BLOCK;
-    public static final Block ATTACHED_APPLE_STEM;
-    public static final Block APPLE_STEM;
 
     public static final Block AQUA_ORE;
     public static final Block AQUA_DEEPSLATE_ORE;
@@ -27,12 +26,6 @@ public class AegisBlocks {
     static {
         APPLE_BLOCK = AegisRegister.registerBlock("apple_block",
                 new AppleBlock(Settings.of(Material.GOURD).strength(1.0F).sounds(BlockSoundGroup.WOOD).nonOpaque()), AegisGroups.AEGIS_GROUP);
-        ATTACHED_APPLE_STEM = AegisRegister.registerBlock("attached_apple_stem",
-                new AttachedStemBlock((GourdBlock) APPLE_BLOCK, () -> Items.APPLE,
-                        Settings.of(Material.PLANT).noCollision().breakInstantly().sounds(BlockSoundGroup.WOOD)), AegisGroups.AEGIS_GROUP);
-        APPLE_STEM = AegisRegister.registerBlock("apple_stem",
-                new StemBlock((GourdBlock) APPLE_BLOCK, () -> Items.APPLE,
-                        Settings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.STEM)), AegisGroups.AEGIS_GROUP);
 
         AQUA_ORE = AegisRegister.registerBlock("aqua_ore",
                 new OreBlock(Settings.of(Material.STONE).strength(3.0F).requiresTool(),

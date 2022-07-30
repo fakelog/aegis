@@ -1,18 +1,11 @@
 package com.github.fakelog.aegis.common.block;
 
-import net.minecraft.block.*;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.PlantBlock;
 
-public class AppleBlock extends GourdBlock {
+public class AppleBlock extends PlantBlock {
 
     public AppleBlock(AbstractBlock.Settings settings) {
         super(settings);
-    }
-
-    public StemBlock getStem() {
-        return (StemBlock) AegisBlocks.APPLE_STEM;
-    }
-
-    public AttachedStemBlock getAttachedStem() {
-        return (AttachedStemBlock) AegisBlocks.ATTACHED_APPLE_STEM;
     }
 }
