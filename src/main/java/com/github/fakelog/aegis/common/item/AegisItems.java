@@ -25,6 +25,8 @@ public class AegisItems {
     public static final Item AQUA_SHORTS;
     public static final Item AQUA_GETA;
 
+    public static final Item FROG_HIDE;
+
     public static void registerAegisItems() {
         Aegis.LOGGER.info("Registering Mod Items for " + Aegis.MOD_ID);
     }
@@ -41,6 +43,8 @@ public class AegisItems {
                 new AquaArmorItem(AegisArmorMaterial.AQUAMARINE, EquipmentSlot.LEGS, AegisGroups.AEGIS_ITEMS_FIREPROOF));
         AQUA_GETA = AegisRegister.registerItem("aqua_geta",
                 new AquaArmorItem(AegisArmorMaterial.AQUAMARINE, EquipmentSlot.FEET, AegisGroups.AEGIS_ITEMS_FIREPROOF));
+
+        FROG_HIDE = AegisRegister.registerItem("frog_hide", new Item(AegisGroups.AEGIS_ITEMS));
     }
 }
 
