@@ -26,20 +26,20 @@ public class AegisBlocks {
 
     static {
         APPLE_BLOCK = AegisRegister.registerBlock("apple_block",
-                new AppleBlock(Settings.of(Material.GOURD).strength(1.0F).sounds(BlockSoundGroup.WOOD).nonOpaque()), AegisGroups.AEGIS_GROUP);
+                new AppleBlock(Settings.of(Material.GOURD).strength(1.0F).sounds(BlockSoundGroup.WOOD).nonOpaque()), AegisGroups.AEGIS_BLOCKS);
 
         AQUA_ORE = AegisRegister.registerBlock("aqua_ore",
                 new OreBlock(Settings.of(Material.STONE).requiresTool().strength(3.0F, 3.0F),
-                        UniformIntProvider.create(3, 5)), AegisGroups.AEGIS_GROUP_FIREPROOF);
+                        UniformIntProvider.create(3, 5)), AegisGroups.AEGIS_BLOCKS_FIREPROOF);
         AQUA_DEEPSLATE_ORE = AegisRegister.registerBlock("aqua_deepslate_ore",
                 new OreBlock(Settings.copy(AQUA_ORE).mapColor(MapColor.DEEPSLATE_GRAY).strength(4.5F, 3.0F),
-                        UniformIntProvider.create(3, 5)), AegisGroups.AEGIS_GROUP_FIREPROOF);
+                        UniformIntProvider.create(3, 5)), AegisGroups.AEGIS_BLOCKS_FIREPROOF);
         AQUA_END_ORE = AegisRegister.registerBlock("aqua_end_ore",
                 new OreBlock(Settings.of(Material.STONE).strength(3.0F).requiresTool(),
-                        UniformIntProvider.create(3, 5)), AegisGroups.AEGIS_GROUP_FIREPROOF);
+                        UniformIntProvider.create(3, 5)), AegisGroups.AEGIS_BLOCKS_FIREPROOF);
 
         AQUA_BLOCK = AegisRegister.registerBlock("aqua_block",
                 new Block(Settings.of(Material.METAL).strength(5.0F).requiresTool()),
-                        AegisGroups.AEGIS_GROUP_FIREPROOF);
+                        AegisGroups.AEGIS_BLOCKS_FIREPROOF);
     }
 }

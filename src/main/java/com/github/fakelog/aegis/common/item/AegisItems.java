@@ -30,17 +30,17 @@ public class AegisItems {
     }
 
     static {
-        AQUA = AegisRegister.registerItem("aqua", new Item(AegisGroups.AEGIS_GROUP_FIREPROOF));
-        AQUA_RAW = AegisRegister.registerItem("aqua_raw", new Item(AegisGroups.AEGIS_GROUP_FIREPROOF));
+        AQUA = AegisRegister.registerItem("aqua", new Item(AegisGroups.AEGIS_ITEMS_FIREPROOF));
+        AQUA_RAW = AegisRegister.registerItem("aqua_raw", new Item(AegisGroups.AEGIS_ITEMS_FIREPROOF));
 
         AQUA_HELMET = AegisRegister.registerItem("aqua_helmet",
-                new AquaArmorItem(AegisArmorMaterial.AQUAMARINE, EquipmentSlot.HEAD, AegisGroups.AEGIS_GROUP_FIREPROOF));
+                new AquaArmorItem(AegisArmorMaterial.AQUAMARINE, EquipmentSlot.HEAD, AegisGroups.AEGIS_ITEMS_FIREPROOF));
         AQUA_MANTLE = AegisRegister.registerItem("aqua_mantle",
-                new AquaArmorItem(AegisArmorMaterial.AQUAMARINE, EquipmentSlot.CHEST, AegisGroups.AEGIS_GROUP_FIREPROOF));
+                new AquaArmorItem(AegisArmorMaterial.AQUAMARINE, EquipmentSlot.CHEST, AegisGroups.AEGIS_ITEMS_FIREPROOF));
         AQUA_SHORTS = AegisRegister.registerItem("aqua_shorts",
-                new AquaArmorItem(AegisArmorMaterial.AQUAMARINE, EquipmentSlot.LEGS, AegisGroups.AEGIS_GROUP_FIREPROOF));
+                new AquaArmorItem(AegisArmorMaterial.AQUAMARINE, EquipmentSlot.LEGS, AegisGroups.AEGIS_ITEMS_FIREPROOF));
         AQUA_GETA = AegisRegister.registerItem("aqua_geta",
-                new AquaArmorItem(AegisArmorMaterial.AQUAMARINE, EquipmentSlot.FEET, AegisGroups.AEGIS_GROUP_FIREPROOF));
+                new AquaArmorItem(AegisArmorMaterial.AQUAMARINE, EquipmentSlot.FEET, AegisGroups.AEGIS_ITEMS_FIREPROOF));
     }
 }
 
