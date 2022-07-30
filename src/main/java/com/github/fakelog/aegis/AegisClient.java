@@ -16,7 +16,7 @@ public class AegisClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
 
-        GeoArmorRenderer.registerArmorRenderer(new AquaArmorRenderer(), AegisItems.AQUA_HELMET, AegisItems.AQUA_CHESTPLATE,
-                                                                        AegisItems.AQUA_LEGGINS, AegisItems.AQUA_BOOTS);
+        GeoArmorRenderer.registerArmorRenderer(new AquaArmorRenderer(), AegisItems.AQUA_HELMET, AegisItems.AQUA_MANTLE,
+                                                                        AegisItems.AQUA_SHORTS, AegisItems.AQUA_GETA);
     }
 }
