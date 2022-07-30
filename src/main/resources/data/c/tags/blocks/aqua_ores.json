@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "aegis:aqua_ore",
+    "aegis:aqua_deepslate_ore",
+    "aegis:aqua_end_ore"
+  ]
+}
