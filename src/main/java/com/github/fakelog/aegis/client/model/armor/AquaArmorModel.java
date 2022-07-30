@@ -15,16 +15,16 @@ public class AquaArmorModel extends AnimatedGeoModel<AquaArmorItem> {
 
     @Override
     public Identifier getModelResource(AquaArmorItem object) {
-        return new Identifier(Aegis.MOD_ID, "geo/models/armor/aqua_armor_model.geo.json");
+        return new Identifier(Aegis.MOD_ID, "geo/models/armor/aqua.json");
     }
 
     @Override
     public Identifier getTextureResource(AquaArmorItem object) {
-        return new Identifier(Aegis.MOD_ID, "textures/models/armor/aqua_armor_texture.png");
+        return new Identifier(Aegis.MOD_ID, "textures/models/armor/aqua.png");
     }
 
     @Override
     public Identifier getAnimationResource(AquaArmorItem animatable) {
-        return new Identifier(Aegis.MOD_ID, "animations/armor_animation.json");
+        return new Identifier(Aegis.MOD_ID, "animations/models/armor/aqua.json");
     }
 }
